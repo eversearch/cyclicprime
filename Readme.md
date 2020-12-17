@@ -29,11 +29,19 @@ Description of pages and components:
 
 ![PrimeScales screenshot](info/screenshots/PrimeScales.png)
 
+Clicking on each cell you can find a fraction made from 1/P in certain numeric system, then you can jump from it into different pages
+
+![PrimeScales screenshot](info/screenshots/PrimeScales2.png)
+
 - FullRepentPrime - shows some regularities of full reptend prime numbers - it may be opened from PrimeScales page
+
+![PrimeScales screenshot](info/screenshots/FullReptendPrime.png)
 
 - ManyRationals - interesting animation, that represents the structure that appears in cyclic numbers, it is called so because it contains at least P-1 animations of rationals made from 1/P to P-1/P
 
 - GeometricProgression - component for visualisation of infinite geometric progressions that 1/P can be represented
+
+![PrimeScales screenshot](info/screenshots/GeometricProgression.png)
 
 - Calculating cyclic prime numbers - used from console, run python ath.py -c P [N], where P is prime number and N is numeric system, if it is absent there would be a search for multiple numeric systems
 
