@@ -21,9 +21,13 @@ To start run 'python ath.py'
 Aplication is a browser that can open qml files located in folders components and pages.
 You can edit any page on the go, if MD5 of page becomes different engine would reload it.
 
-There are few prepared pages:
+There are few prepared pages, first of them opened as default, rest could be opened using button '+'.
+
+Description of pages and components:
 
 - PrimeScales - shows length of periods for 1/P in different Numeric Systems, useful to see many full reptend primes at once, and structure of their appearence
+
+![PrimeScales screenshot](info/screenshots/PrimeScales.png)
 
 - FullRepentPrime - shows some regularities of full reptend prime numbers - it may be opened from PrimeScales page
 
@@ -41,12 +45,12 @@ There are few prepared pages:
 
 ## Requirements
 
-''' 
+```
 pip install PySide2
 pip install factordb-pycli
 pip install sympy
 pip install gmpy2
-'''
+```
 
 FactorDB - is a library for prime numbers factorisation, it uses connection to internet.
 Sympy is optional and used for prime factorisation of small numbers, but usage of full reptend prime page is much slower without it.
